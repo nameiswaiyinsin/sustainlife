@@ -178,7 +178,7 @@ h2 {
 }
 
 #left-tutorials-image-bg {
-    background: url(../images/tutorials-image.png) no-repeat center center;
+    background: url(../images/tutorials-image.jpg) no-repeat center center;
     height: 100%;
     border-radius: 20px;
 }
@@ -213,13 +213,13 @@ button {
 }
 
 #right-share-image-bg {
-    background: url(../images/share-your-project-image.png) no-repeat center center;
+    background: url(../images/share-image.jpg) no-repeat center center;
     height: 100%;
     border-radius: 20px;
 }
 
 #center-gallery-image-bg {
-    background: url(../images/gallery-image.png) no-repeat center center;
+    background: url(../images/gallery-image.jpg) no-repeat center center;
     height: 100%;
     border-radius: 20px;
 }
