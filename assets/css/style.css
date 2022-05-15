@@ -135,6 +135,7 @@ h2 {
     padding: 0px 80px 0px 80px;
 }
 
+
 .welcome-content h2 {
     color: white;
     font-size: 150%;
@@ -151,10 +152,10 @@ h2 {
 #explore {
     text-align: center;
     margin: 30px 0;
-    font-size: 280%;
+    font-size: 250%;
 }
 
-#resources {
+#resources-section {
     height: 600px;
 }
 
@@ -224,3 +225,21 @@ button {
     height: 100%;
     border-radius: 20px;
 }
+
+/* newsletter section */
+
+#form-section {
+    height: 300px;
+}
+
+.form-content {
+    font-size: 100%;
+    text-align: center;
+    padding: 0px 80px 0px 80px;
+}
+
+.form-content h2 {
+    font-size: 150%;
+    line-height: 75px;
+}
+
