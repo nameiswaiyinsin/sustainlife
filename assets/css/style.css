@@ -278,3 +278,50 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+#right-footer h3 {
+    text-align: center;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: black
+}
+
+#left-footer {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    margin: 0 auto;
+    background-color: red;
+}
+
+#right-footer {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    margin: 0 auto;
+}
+
+#center-footer {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: orange;
+}
