@@ -162,7 +162,6 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: red;
     margin: 0 auto;
 }
 
@@ -170,13 +169,12 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
 }
 
 #center-gallery {
+    padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: blue;
 }
 
 #left-tutorials-image-bg {
@@ -204,7 +202,7 @@ button {
     margin: 20px 10px;
     border-radius: 25px;
     border: 2px solid #1e441e;
-    background: transparent;
+    background: white;
 
     text-align: center;
     text-transform: uppercase;
@@ -212,5 +210,16 @@ button {
     color: #1e441e;
 
     cursor: pointer;
+}
 
+#right-share-image-bg {
+    background: url(../images/share-your-project-image.png) no-repeat center center;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#center-gallery-image-bg {
+    background: url(../images/gallery-image.png) no-repeat center center;
+    height: 100%;
+    border-radius: 20px;
 }
