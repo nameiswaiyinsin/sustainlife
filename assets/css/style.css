@@ -285,8 +285,11 @@ footer {
     height: 150px;
 }
 
-#right-footer h3 {
+footer h3 {
     text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1e441e;
 }
 
 .social-networks {
@@ -300,8 +303,12 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 8%;
     color: black
+}
+
+.social-networks i:hover {
+    color: #72a98f;
 }
 
 #left-footer {
@@ -309,7 +316,6 @@ footer {
     width: 33%;
     float: left;
     margin: 0 auto;
-    background-color: red;
 }
 
 #right-footer {
@@ -323,5 +329,14 @@ footer {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: orange;
+}
+
+.contact-info {
+    list-style-type: none;
+    text-align: center;
+    color: #3a3a3a;
+    display: block;
+    padding: 5%;
+    line-height: 30px;
+    padding-bottom: 0px;
 }
