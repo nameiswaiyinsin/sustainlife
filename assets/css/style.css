@@ -24,7 +24,7 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 280%;
     color: #1e441e;
     margin-left: 30px;
 }
@@ -352,4 +352,27 @@ footer h3 {
 
 #photos > img {
     width: 100%;
+}
+
+/* Tutorials section */
+
+#tutorials-text {
+    clear: both;
+    height: 150px;
+}
+
+#repair-tutorials {
+    line-height: 40px;
+    text-align: center;
+    
+}
+
+#repair-tutorials p {
+    padding: 0px 80px 0px 80px;
+}
+
+.tutorial-vids {
+    line-height: 50px;
+    column-count: 4;
+    padding: 30px;
 }
