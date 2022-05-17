@@ -340,3 +340,16 @@ footer h3 {
     line-height: 30px;
     padding-bottom: 0px;
 }
+
+/* Gallery section */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
