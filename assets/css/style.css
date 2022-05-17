@@ -318,6 +318,10 @@ footer h3 {
     margin: 0 auto;
 }
 
+#left-footer #logo {
+    line-height: 150px;
+}
+
 #right-footer {
     padding-top: 30px;
     width: 33%;
@@ -359,20 +363,34 @@ footer h3 {
 #tutorials-text {
     clear: both;
     height: 150px;
+    text-align: center;
 }
 
-#repair-tutorials {
-    line-height: 40px;
+#tutorials-text h2 {
+    background-color: #7a4419;
+    color: white;
+    font-size: 250%;
+    line-height: 150px;
+}
+
+#repair-tutorials h2 {
+    line-height: 80px;
     text-align: center;
+    font-size: 200%;
     
 }
 
 #repair-tutorials p {
     padding: 0px 80px 0px 80px;
+    text-align: center;
 }
 
 .tutorial-vids {
     line-height: 50px;
     column-count: 4;
     padding: 30px;
+}
+.video-title {
+    text-align: center;
+    padding: 10px, 30px, 10px, 30px;
 }
