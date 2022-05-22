@@ -40,47 +40,44 @@
     </header>
 
     <!--Contact-->
-    <section class="contact-content">
-        <h1>Contact Us</h1>
-        <ul>
-            <li>Have a question about our tutorials and tips that hasn't been answered?</li>
-            <li>Want to submit your own personal tutorials/tips in video form?</li>
-            <li>Want to submit your own personal sustainable lifestyle projects to our Gallery?</li>
-            <li>Or do you just want to say hi?</li>
-        </ul>
+    <section id="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <div>
+                <form method="post" action="#">
+                    <div>
+                        <label for="contact-name">Name</label>
+                        <input type="text" id="contact-name" placeholder="Your Name" required class="contact-name-input">
+                    </div>
+                    <div>
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" placeholder="hello@sustainlife.com" required class="contact-email-input">
+                    </div>
+                    <div>
+                        <label for="contact-questions">Questions about our Tutorials?</label>
+                        <input type="radio" id="contact-questions" name="contact-form" value="contact-questions">
 
-        <div>
-            <form method="post" action="#">
-                <div>
-                    <label for="contact-name">Name</label>
-                    <input type="text" id="contact-name" placeholder="Your Name" required>
-                </div>
-                <div>
-                    <label for="contact-email">Email</label>
-                    <input type="email" id="contact-email" placeholder="hello@sustainlife.com" required>
-                </div>
-                <div>
-                    <label for="contact-questions">Questions about our Tutorials?</label>
-                    <input type="radio" id="contact-questions" name="contact-form" value="contact-questions">
+                        <label for="contact-submit-tips">Submit your Tutorials & tips</label>
+                        <input type="radio" id="contact-submit-tips" name="contact-form" value="contact-submit-tips">
 
-                    <label for="contact-submit-tips">Submit your Tutorials & tips</label>
-                    <input type="radio" id="contact-submit-tips" name="contact-form" value="contact-submit-tips">
+                        <label for="contact-submit-gallery">Submit your Projects to our Gallery</label>
+                        <input type="radio" id="contact-submit-gallery" name="contact-form"
+                            value="contact-submit-gallery">
 
-                    <label for="contact-submit-gallery">Submit your Projects to our Gallery</label>
-                    <input type="radio" id="contact-submit-gallery" name="contact-form" value="contact-submit-gallery">
-
-                    <label for="contact-other">Other</label>
-                    <input type="radio" id="contact-other" name="contact-form" value="contact-other">
-                </div>
-                <div>
-                    <textarea name="contact-form" id="contact-text-area" cols="30" rows="10" placeholder="Add your message here :)" required></textarea>
-                </div>
-                <div>
-                    <input type="submit">
-                </div>
+                        <label for="contact-other">Other</label>
+                        <input type="radio" id="contact-other" name="contact-form" value="contact-other">
+                    </div>
+                    <div>
+                        <textarea name="contact-form" id="contact-text-area" cols="30" rows="10"
+                            placeholder="Add your message here :)" required></textarea>
+                    </div>
+                    <div>
+                        <input type="submit">
+                    </div>
 
 
-            </form>
+                </form>
+            </div>
         </div>
     </section>
 

@@ -394,3 +394,33 @@ footer h3 {
     text-align: center;
     padding: 10px, 30px, 10px, 30px;
 }
+
+/* Contact section */
+
+#contact-section {
+    clear: both;
+    height: 600px;
+}
+
+#contact-section h2 {
+    background-color: #1e441e;
+    color: white;
+    font-size: 250%;
+    line-height: 150px;
+    text-align: center;
+}
+
+.contact-content {
+    font-size: 100%;
+    text-align: center;
+    padding: 0px 80px 0px 80px;
+    line-height: 75px;
+}
+
+.contact-name-input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #3a3a3a;
+    padding: 0.4rem;
+    
+}
