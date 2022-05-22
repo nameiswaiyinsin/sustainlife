@@ -53,26 +53,32 @@
                         <label for="contact-email">Email</label>
                         <input type="email" id="contact-email" placeholder="hello@sustainlife.com" required class="contact-email-input">
                     </div>
+
+                    <div class="radio-list">
                     <div>
+                        <input type="radio" id="contact-questions" name="contact-form" value="contact-questions" required>
                         <label for="contact-questions">Questions about our Tutorials?</label>
-                        <input type="radio" id="contact-questions" name="contact-form" value="contact-questions">
-
-                        <label for="contact-submit-tips">Submit your Tutorials & tips</label>
-                        <input type="radio" id="contact-submit-tips" name="contact-form" value="contact-submit-tips">
-
-                        <label for="contact-submit-gallery">Submit your Projects to our Gallery</label>
-                        <input type="radio" id="contact-submit-gallery" name="contact-form"
-                            value="contact-submit-gallery">
-
-                        <label for="contact-other">Other</label>
-                        <input type="radio" id="contact-other" name="contact-form" value="contact-other">
                     </div>
+                    <div>
+                        <input type="radio" id="contact-submit-tips" name="contact-form" value="contact-submit-tips" required>
+                        <label for="contact-submit-tips">Submit your Tutorials & tips</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="contact-submit-gallery" name="contact-form" value="contact-submit-gallery" required>
+                        <label for="contact-submit-gallery">Submit your Projects to our Gallery</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="contact-other" name="contact-form" value="contact-other" required>
+                        <label for="contact-other">Other</label>
+                    </div>
+                </div>
+
                     <div>
                         <textarea name="contact-form" id="contact-text-area" cols="30" rows="10"
-                            placeholder="Add your message here :)" required></textarea>
+                            placeholder="Add your message here :)" required class="text-area-input"></textarea>
                     </div>
-                    <div>
-                        <input type="submit">
+                    <div class="submit-button">
+                        <input type="submit" value="Send!">
                     </div>
 
 

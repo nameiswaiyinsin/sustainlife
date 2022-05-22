@@ -399,7 +399,7 @@ footer h3 {
 
 #contact-section {
     clear: both;
-    height: 600px;
+    height: 700px;
 }
 
 #contact-section h2 {
@@ -421,6 +421,43 @@ footer h3 {
     width: 200px;
     height: 30px;
     border: 1px solid #3a3a3a;
-    padding: 0.4rem;
-    
+    padding: 0px 80px 0px 80px;
+}
+
+.contact-email-input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #3a3a3a;
+    padding: 0px 80px 0px 80px;
+}
+
+.text-area-input {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #3a3a3a;
+    padding: 0px 80px 0px 80px;
+    line-height: 30px;
+}
+
+.radio-list {
+    text-align: left;
+    line-height: 30px;
+    padding: 0px 450px 0px 450px;
+}
+
+.submit-button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    color: black;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.submit-button:hover {
+    background-color: #1e441e;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
