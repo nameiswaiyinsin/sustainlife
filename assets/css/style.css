@@ -424,6 +424,18 @@ footer h3 {
 }
 
 /* Gallery section */
+#gallery-text {
+    clear: both;
+    height: 150px;
+    text-align: center;
+}
+
+#gallery-text h2 {
+    background-color: #7a4419;
+    color: white;
+    font-size: 250%;
+    line-height: 150px;
+}
 
 #photos {
     clear: both;
