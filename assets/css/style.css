@@ -551,3 +551,24 @@ footer h3 {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* thank you section */
+
+#thankyou-section {
+    clear: both;
+    height: 500px;
+    text-align: center;
+    background-color: rgba(30, 68, 30, .7);
+}
+
+.thankyou-content h2 {
+    font-size: 250%;
+    line-height: 150px;
+    color: white;
+}
+
+.thankyou-content p {
+    font-size: 110%;
+    color: white;
+    line-height: 150px;
+}
