@@ -508,24 +508,24 @@ footer h3 {
 }
 
 .contact-name-input {
-    width: 200px;
+    width: 400px;
     height: 30px;
     border: 1px solid #3a3a3a;
-    padding: 0px 80px 0px 80px;
+    padding: 0px 20px 0px 20px;
 }
 
 .contact-email-input {
-    width: 200px;
+    width: 400px;
     height: 30px;
     border: 1px solid #3a3a3a;
-    padding: 0px 80px 0px 80px;
+    padding: 0px 20px 0px 20px;
 }
 
 .text-area-input {
-    width: 300px;
+    width: 400px;
     height: 200px;
     border: 1px solid #3a3a3a;
-    padding: 0px 80px 0px 80px;
+    padding: 0px 20px 0px 20px;
     line-height: 30px;
 }
 
@@ -540,7 +540,7 @@ footer h3 {
     height: 30px;
     border: 1px solid #3a3a3a;
     border-radius: 5px;
-    color: black;
+    background-color: black;
     margin: 0 auto;
     line-height: 25px;
 }
