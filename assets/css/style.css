@@ -124,7 +124,7 @@ h2 {
 /* welcome section */
 
 #welcome-section {
-    height: 270px;
+    height: 350px;
     background-color: #1e441e;
     color: white;
 }
@@ -139,7 +139,7 @@ h2 {
 .welcome-content h2 {
     color: white;
     font-size: 150%;
-    line-height: 75px;
+    line-height: 120px;
 }
 
 #welcome-content-links a {
@@ -151,7 +151,7 @@ h2 {
 
 #explore {
     text-align: center;
-    margin: 30px 0;
+    margin: 60px 0;
     font-size: 250%;
 }
 
@@ -184,17 +184,49 @@ h2 {
     border-radius: 20px;
 }
 
-.box-container {
+#left-tutorials a, #right-share a, #center-gallery a {
+    text-decoration: none;
+    
+}
+
+#right-share-image-bg {
+    background: url(../images/share-image.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+
+#center-gallery-image-bg {
+    background: url(../images/gallery-image.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.box-container-1 {
     width: 400px;
     height: 300px;
     border-style: solid;
-    border-color: #1e441e;
+    border-color: black;
     margin: 0 auto;
     border-radius: 20px;
 }
 
-#left-tutorials a {
-    text-decoration: none;
+.box-container-2 {
+    width: 400px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.box-container-3 {
+    width: 400px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    margin: 0 auto;
+    border-radius: 20px;
 }
 
 button {
@@ -202,28 +234,74 @@ button {
     padding: 15px 0;
     margin: 20px 10px;
     border-radius: 25px;
-    border: 2px solid #1e441e;
-    background: white;
+    border: 2px solid #7a4419;
+    background: #7a4419;
 
     text-align: center;
     text-transform: uppercase;
     font-size: 110%;
     letter-spacing: 4px;
-    color: #1e441e;
+    color: white;
 
     cursor: pointer;
 }
 
-#right-share-image-bg {
-    background: url(../images/share-image.jpg) no-repeat center center;
-    height: 100%;
-    border-radius: 20px;
+/* button positioning */
+
+.box-container-1 button {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
-#center-gallery-image-bg {
-    background: url(../images/gallery-image.jpg) no-repeat center center;
-    height: 100%;
-    border-radius: 20px;
+.box-container-2 button {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.box-container-3 button {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* Hover button styling */
+
+.box-container-1 button:hover {
+    background-color: #1e441e;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid #1e441e;
+}
+
+.box-container-2 button:hover {
+    background-color: #1e441e;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid #1e441e;
+}
+
+.box-container-3 button:hover {
+    background-color: #1e441e;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid #1e441e;
+}
+
+/* h2 positioning */
+.box-container-1 h2, .box-container-2 h2, .box-container-3 h2 {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    color: black;
 }
 
 /* newsletter section */
