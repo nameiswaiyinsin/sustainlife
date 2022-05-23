@@ -301,7 +301,10 @@ button {
     text-align: center;
     position: relative;
     top: 40%;
-    color: black;
+    color: white;
+    background: rgba(30, 68, 30, .7);
+    border-radius: 25px;
+    line-height: 40px;
 }
 
 /* newsletter section */
@@ -431,7 +434,7 @@ footer h3 {
 }
 
 #gallery-text h2 {
-    background-color: #7a4419;
+    background-color: #1e441e;
     color: white;
     font-size: 250%;
     line-height: 150px;
@@ -457,7 +460,7 @@ footer h3 {
 }
 
 #tutorials-text h2 {
-    background-color: #7a4419;
+    background-color: #1e441e;
     color: white;
     font-size: 250%;
     line-height: 150px;
