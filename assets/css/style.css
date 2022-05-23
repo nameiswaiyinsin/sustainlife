@@ -625,6 +625,30 @@ footer h3 {
         float: left;
         padding: 20px;
     }
+
+    .contact-content {
+        width: 65%;
+        height: 800px;
+        margin: 0 auto;
+    }
+
+    .radio-list {
+        width: 65%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #left-footer #logo {
+        font-size: 150%;
+        
+    }
+
+    .social-networks i {
+        font-size: 140%;
+        margin: 1%;
+        padding: 8%;
+        color: black
+    }
 }
 
 /* For medium screen sizes from 950px wide and down (tablet) */
@@ -665,6 +689,16 @@ footer h3 {
 
     #photos {
         column-count: 3;
+    }
+
+    #left-footer {
+        display: none;
+    } 
+    
+    #right-footer {
+        width: 100%;
+        float: left;
+        padding: 20px;
     }
 
 }
