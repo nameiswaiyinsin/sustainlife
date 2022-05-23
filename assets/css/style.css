@@ -614,5 +614,9 @@ footer h3 {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #tutorials-text h2 {
+        line-height: 80px;
+    }
 }
 
