@@ -505,9 +505,11 @@ footer h3 {
     column-count: 4;
     padding: 30px;
 }
+
 .video-title {
     text-align: center;
     padding: 10px, 30px, 10px, 30px;
+    line-height: 50px;
 }
 
 /* Contact section */
@@ -560,12 +562,17 @@ footer h3 {
     padding: 0px 450px 0px 450px;
 }
 
+.radio-list div {
+    margin-left: 25%;
+}
+
 .submit-button {
     width: 100px;
     height: 30px;
     border: 1px solid #3a3a3a;
     border-radius: 5px;
     background-color: black;
+    color: white;
     margin: 0 auto;
     line-height: 25px;
 }
@@ -602,6 +609,7 @@ footer h3 {
 
 /* For larger to medium screen sizes from 1200px wide and down (desktop and laptop) */
 @media screen and (max-width: 1200px) {
+
     #resources-section {
         width: 65%;
         height: 1250px;
@@ -651,8 +659,8 @@ footer h3 {
     }
 }
 
-/* For medium screen sizes from 950px wide and down (tablet) */
-@media screen and (max-width: 950px) {
+/* For medium screen sizes from 964px wide and down (tablet) */
+@media screen and (max-width: 964px) {
     #menu {
         clear: left;
         float: left;
@@ -662,7 +670,7 @@ footer h3 {
     }
 
     #tutorials-text h2 {
-        line-height: 80px;
+        font-size: 150%;
     }
 
     .tutorial-vids div {
@@ -679,11 +687,16 @@ footer h3 {
         width: 65%;
         height: 1400px;
         margin: 0 auto;
+        line-height: 20px;
     }
 
     .radio-list {
         width: 65%;
         padding: 0;
+        margin: 0 auto;
+    }
+
+    .submit-button {
         margin: 0 auto;
     }
 
@@ -701,15 +714,43 @@ footer h3 {
         padding: 20px;
     }
 
+    #center-footer {
+        width: 100%;
+        clear: both;
+        float: left;
+        padding: 20px;
+    }
+
+    .video-title {
+        line-height: 20px;
+    }
+
 }
 /* For small screen sizes from 800px wide and down (mobile) */
 
 @media screen and (max-width: 800px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 80%;
+    }
+
     #photos {
         column-count: 2;
     }
 
     #gallery-text h2 {
+        font-size: 150%;
+    }
+
+    #tutorials-text h2 {
+        font-size: 100%;
+    }
+
+    #contact-section h2 {
         font-size: 150%;
     }
 }
@@ -718,6 +759,10 @@ footer h3 {
 
 @media screen and (max-width: 480px) {
     #gallery-text h2 {
+        font-size: 80%;
+    }
+
+    #tutorials-text h2 {
         font-size: 80%;
     }
 
