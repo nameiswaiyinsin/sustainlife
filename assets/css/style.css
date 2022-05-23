@@ -676,15 +676,16 @@ footer h3 {
     }
 
     #gallery-text h2 {
-        font-size: 100%;
+        font-size: 150%;
     }
 }
 
-/* For small screens from 150px wide and up (to ensure complete responsiveness to mobiles of all sizes) */
+/* For small screens from 480px wide and down (to ensure complete responsiveness to mobiles of all sizes) */
 
-@media screen and (min-width: 150px) {
+@media screen and (max-width: 480px) {
     #gallery-text h2 {
         font-size: 80%;
     }
+
 }
 
