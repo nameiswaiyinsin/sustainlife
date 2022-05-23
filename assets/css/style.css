@@ -575,3 +575,32 @@ footer h3 {
     color: white;
     line-height: 150px;
 }
+
+/* Media Queries */
+
+/* For larger to medium screen sizes from 1200px wide and down (desktop and laptop) */
+@media screen and (max-width: 1200px) {
+    #resources-section {
+        width: 65%;
+        height: 1250px;
+        margin: 0 auto;
+    }
+
+    #explore {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-tutorials, #right-share {
+        width: 100%;
+        float: left;
+        padding: 20px;
+    }
+
+    #center-gallery {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 20px;
+    }
+}
