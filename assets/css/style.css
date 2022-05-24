@@ -501,7 +501,7 @@ footer h3 {
 }
 
 .tutorial-vids {
-    line-height: 50px;
+    line-height: 20px;
     column-count: 4;
     padding: 30px;
 }
@@ -509,7 +509,7 @@ footer h3 {
 .video-title {
     text-align: center;
     padding: 10px, 30px, 10px, 30px;
-    line-height: 50px;
+    line-height: 70px;
 }
 
 /* Contact section */
@@ -679,8 +679,12 @@ footer h3 {
         margin: 0 auto;
     }
 
-    .youtube {
-        width: 100%;
+    .tutorial-vids {
+        display: grid;
+    }
+
+    .video-title h3{
+        line-height: 50px;
     }
 
     .contact-content {
@@ -823,6 +827,7 @@ footer h3 {
 
     #tutorials-text h2 {
         font-size: 80%;
+        
     }
 
     .radio-list div {
@@ -849,7 +854,6 @@ footer h3 {
     #right-footer {
         width: 100%;
         float: left;
-        padding: 20px;
         position: relative;
     }
 
@@ -857,12 +861,34 @@ footer h3 {
         width: 100%;
         clear: both;
         float: left;
-        padding: 20px;
+        position: relative;
+    }
+
+    .contact-content {
+        height: 500px;
+        position: relative;
+        padding: 0;
+    }
+
+    #contact-section {
+        height: 900px;
+        position: relative;
+    }
+
+    #contact-section h2 {
+        font-size: 100%;
     }
 
     }
 
+    /* for small screens from 400px wide and down */
+
+    @media screen and (max-width: 400px) {
     
+        #tutorials-text h2 {
+            font-size: 80%;
+            line-height: 70px;
+        }
     }
 
 
