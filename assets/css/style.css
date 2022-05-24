@@ -531,7 +531,7 @@ footer h3 {
     font-size: 100%;
     text-align: center;
     padding: 0px 80px 0px 80px;
-    line-height: 75px;
+    line-height: 50px;
 }
 
 .contact-name-input {
@@ -689,6 +689,18 @@ footer h3 {
         line-height: 20px;
     }
 
+    .contact-content form {
+        height: 200px;
+    }
+
+    .text-area-input {
+        width: 400px;
+        height: 200px;
+        border: 1px solid #3a3a3a;
+        padding: 0px 20px 0px 20px;
+        margin: 0 auto;
+    }
+
     .radio-list {
         width: 65%;
         padding: 0;
@@ -735,6 +747,7 @@ footer h3 {
         margin-bottom: 20px;
         line-height: 25px;
         font-size: 80%;
+        text-align: center;
     }
 
     #photos {
@@ -752,6 +765,53 @@ footer h3 {
     #contact-section h2 {
         font-size: 150%;
     }
+
+    .contact-content {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .contact-content form {
+        height: 550px;
+    }
+
+    .contact-name-input {
+        width: 200px;
+        height: 30px;
+        border: 1px solid #3a3a3a;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .contact-email-input {
+        width: 200px;
+        height: 30px;
+        border: 1px solid #3a3a3a;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .text-area-input {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #3a3a3a;
+        padding: 0px 20px 0px 20px;
+        margin: 0 auto;
+    }
+
+    .radio-list {
+        width: 65%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .submit-button {
+        margin: 0 auto;
+    }
+
+    .form-content {
+        display: block;
+    }
+
+    
 }
 
 /* For small screens from 480px wide and down (to ensure complete responsiveness to mobiles of all sizes) */
@@ -765,5 +825,45 @@ footer h3 {
         font-size: 80%;
     }
 
-}
+    .radio-list div {
+        margin: 0;
+    }
+
+    .email-input-text {
+        width: 200px;
+        height: 30px;
+        border: 1px solid #3a3a3a;
+        padding: 0.4rem;
+        margin: 0 auto;
+    }
+
+    .form-content {
+        padding: 0;
+        position: relative;
+    }
+
+    .form-content h2 {
+        line-height: 30px;
+    }
+
+    #right-footer {
+        width: 100%;
+        float: left;
+        padding: 20px;
+        position: relative;
+    }
+
+    #center-footer {
+        width: 100%;
+        clear: both;
+        float: left;
+        padding: 20px;
+    }
+
+    }
+
+    
+    }
+
+
 
