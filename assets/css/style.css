@@ -690,7 +690,6 @@ footer h3 {
     .contact-content {
         width: 65%;
         margin: 0 auto;
-        line-height: 20px;
     }
 
     .contact-content form {
@@ -773,6 +772,7 @@ footer h3 {
     .contact-content {
         width: 65%;
         margin: 0 auto;
+        line-height: 30px;
     }
 
     .contact-content form {
