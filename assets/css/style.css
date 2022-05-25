@@ -725,14 +725,12 @@ footer h3 {
     #right-footer {
         width: 100%;
         float: left;
-        padding: 20px;
     }
 
     #center-footer {
         width: 100%;
         clear: both;
         float: left;
-        padding: 20px;
     }
 
     .video-title {
@@ -740,6 +738,15 @@ footer h3 {
     }
 
 }
+
+/* for small screens sizes from 670px wide and down */
+@media screen and (max-width: 670px) {
+    #resources-section {
+        height: 1300px;
+    }
+
+}
+
 /* For small screen sizes from 800px wide and down (mobile) */
 
 @media screen and (max-width: 800px) {
@@ -848,7 +855,7 @@ footer h3 {
     }
 
     .form-content h2 {
-        line-height: 30px;
+        line-height: 20px;
     }
 
     #right-footer {
