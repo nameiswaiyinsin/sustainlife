@@ -761,7 +761,7 @@ footer h3 {
     }
 
     #photos {
-        column-count: 2;
+        column-count: 1;
     }
 
     #gallery-text h2 {
@@ -823,6 +823,8 @@ footer h3 {
     }
 
     
+
+    
 }
 
 /* For small screens from 480px wide and down (to ensure complete responsiveness to mobiles of all sizes) */
@@ -833,8 +835,7 @@ footer h3 {
     }
 
     #tutorials-text h2 {
-        font-size: 80%;
-        
+        font-size: 80%;   
     }
 
     .radio-list div {
@@ -850,12 +851,21 @@ footer h3 {
     }
 
     .form-content {
-        padding: 0;
+        padding: 10px 0px 10px 0px;
         position: relative;
     }
 
     .form-content h2 {
         line-height: 20px;
+    }
+
+    #form-section h2 {
+        line-height: 20px;
+        font-size: 150%;
+    }
+
+    #form-section p {
+        padding: 0;
     }
 
     #right-footer {
