@@ -614,6 +614,13 @@ footer h3 {
 
 /* Media Queries */
 
+/* for large screens sizes from 1300px wide and down (large desktop) */
+@media screen and (max-width: 1300px) {
+    #contact-section {
+        height: 750px;
+    }
+}
+
 /* For larger to medium screen sizes from 1200px wide and down (desktop and laptop) */
 @media screen and (max-width: 1200px) {
 
