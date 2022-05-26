@@ -74,7 +74,8 @@ h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: white;
 }
 
@@ -154,6 +155,7 @@ h2 {
 
 #resources-section {
     height: 600px;
+    position: relative;
 }
 
 #left-tutorials {
@@ -178,24 +180,29 @@ h2 {
 #left-tutorials-image-bg {
     background: url(../images/tutorials-image.jpg) no-repeat center center;
     height: 100%;
+    width: 100%;
     border-radius: 20px;
 }
 
-#left-tutorials a, #right-share a, #center-gallery a {
+#left-tutorials a,
+#right-share a,
+#center-gallery a {
     text-decoration: none;
-    
+
 }
 
 #right-share-image-bg {
     background: url(../images/share-image.jpg) no-repeat center center;
     height: 100%;
+    width: 100%;
     border-radius: 20px;
-    
+
 }
 
 #center-gallery-image-bg {
     background: url(../images/gallery-image.jpg) no-repeat center center;
     height: 100%;
+    width: 100%;
     border-radius: 20px;
 }
 
@@ -250,7 +257,7 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 .box-container-2 button {
@@ -258,7 +265,7 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 .box-container-3 button {
@@ -266,7 +273,7 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 /* Hover button styling */
@@ -293,7 +300,9 @@ button {
 }
 
 /* h2 positioning */
-.box-container-1 h2, .box-container-2 h2, .box-container-3 h2 {
+.box-container-1 h2,
+.box-container-2 h2,
+.box-container-3 h2 {
     margin: auto;
     text-align: center;
     position: relative;
@@ -370,7 +379,7 @@ footer h3 {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -440,7 +449,7 @@ footer h3 {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -463,10 +472,10 @@ footer h3 {
     line-height: 80px;
     text-align: center;
     font-size: 200%;
-    
+
 }
 
-#repurpose-tutorials h2{
+#repurpose-tutorials h2 {
     line-height: 80px;
     text-align: center;
     font-size: 200%;
@@ -477,7 +486,7 @@ footer h3 {
     text-align: center;
 }
 
-#repurpose-tutorials p{
+#repurpose-tutorials p {
     padding: 0px 80px 0px 80px;
     text-align: center;
 }
@@ -488,7 +497,7 @@ footer h3 {
     font-size: 200%;
 }
 
-#gifting-tutorials p{
+#gifting-tutorials p {
     padding: 0px 80px 0px 80px;
     text-align: center;
 }
@@ -588,6 +597,7 @@ footer h3 {
     height: 500px;
     text-align: center;
     background-color: rgba(30, 68, 30, .7);
+    position: relative;
 }
 
 .thankyou-content h2 {
@@ -599,7 +609,7 @@ footer h3 {
 .thankyou-content p {
     font-size: 110%;
     color: white;
-    line-height: 150px;
+    line-height: 100px;
 }
 
 /* Media Queries */
@@ -618,7 +628,8 @@ footer h3 {
         margin: 0;
     }
 
-    #left-tutorials, #right-share {
+    #left-tutorials,
+    #right-share {
         width: 100%;
         float: left;
     }
@@ -644,7 +655,7 @@ footer h3 {
 
     #left-footer #logo {
         font-size: 150%;
-        
+
     }
 
     .social-networks i {
@@ -679,7 +690,7 @@ footer h3 {
         display: grid;
     }
 
-    .video-title h3{
+    .video-title h3 {
         line-height: 50px;
     }
 
@@ -716,8 +727,8 @@ footer h3 {
 
     #left-footer {
         display: none;
-    } 
-    
+    }
+
     #right-footer {
         width: 100%;
         float: left;
@@ -733,13 +744,20 @@ footer h3 {
         line-height: 20px;
     }
 
+    .thankyou-content p {
+        line-height: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
 
 /* for small screens sizes from 670px wide and down */
 @media screen and (max-width: 670px) {
 
     #resources-section {
-        height: 1300px;
+        height: 1350px;
+        width: 100%;
     }
 
     .welcome-content h2 {
@@ -765,168 +783,201 @@ footer h3 {
         position: absolute;
     }
 
-}
-
-/* For small screen sizes from 800px wide and down (mobile) */
-
-@media screen and (max-width: 800px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 5px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        font-size: 80%;
-        text-align: center;
-    }
-
-    #photos {
-        column-count: 1;
-    }
-
-    #gallery-text h2 {
-        font-size: 150%;
-    }
-
-    #tutorials-text h2 {
-        font-size: 100%;
-    }
-
-    #contact-section h2 {
-        font-size: 150%;
-    }
-
-    .contact-content {
-        width: 65%;
+    .box-container-1 {
+        width: 300px;
+        height: 300px;
+        border-style: solid;
+        border-color: black;
         margin: 0 auto;
-        line-height: 30px;
-        padding: 20px;
+        border-radius: 20px;
     }
 
-    .contact-content form {
-        height: 550px;
-    }
-
-    .contact-name-input {
-        width: 200px;
-        height: 30px;
-        border: 1px solid #3a3a3a;
-        padding: 0px 20px 0px 20px;
-    }
-
-    .contact-email-input {
-        width: 200px;
-        height: 30px;
-        border: 1px solid #3a3a3a;
-        padding: 0px 20px 0px 20px;
-    }
-
-    .text-area-input {
-        width: 200px;
-        height: 200px;
-        border: 1px solid #3a3a3a;
-        padding: 0px 20px 0px 20px;
+    .box-container-2 {
+        width: 300px;
+        height: 300px;
+        border-style: solid;
+        border-color: black;
         margin: 0 auto;
+        border-radius: 20px;
     }
 
-    .radio-list {
-        width: 65%;
-        padding: 0;
+    .box-container-3 {
+        width: 300px;
+        height: 300px;
+        border-style: solid;
+        border-color: black;
         margin: 0 auto;
+        border-radius: 20px;
     }
 
-    .submit-button {
-        margin: 0 auto;
+    .thankyou-content p {
+        line-height: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
-    .form-content {
-        display: block;
-    }
-}
-
- /* for small screen from 548px and down */
-
-@media screen and (max-width: 548px) {
-    #contact-section {
-        height: 800px;
-    }
-}
-
-/* For small screens from 480px wide and down (to ensure complete responsiveness to mobiles of all sizes) */
-
-@media screen and (max-width: 480px) {
-    #gallery-text h2 {
-        font-size: 80%;
     }
 
-    #tutorials-text h2 {
-        font-size: 80%;   
+    /* For small screen sizes from 800px wide and down (mobile) */
+
+    @media screen and (max-width: 800px) {
+        #menu {
+            clear: left;
+            float: left;
+            margin-left: 5px;
+            margin-bottom: 20px;
+            line-height: 25px;
+            font-size: 80%;
+            text-align: center;
+        }
+
+        #photos {
+            column-count: 1;
+        }
+
+        #gallery-text h2 {
+            font-size: 150%;
+        }
+
+        #tutorials-text h2 {
+            font-size: 100%;
+        }
+
+        #contact-section h2 {
+            font-size: 150%;
+        }
+
+        .contact-content {
+            width: 65%;
+            margin: 0 auto;
+            line-height: 30px;
+            padding: 20px;
+        }
+
+        .contact-content form {
+            height: 550px;
+        }
+
+        .contact-name-input {
+            width: 200px;
+            height: 30px;
+            border: 1px solid #3a3a3a;
+            padding: 0px 20px 0px 20px;
+        }
+
+        .contact-email-input {
+            width: 200px;
+            height: 30px;
+            border: 1px solid #3a3a3a;
+            padding: 0px 20px 0px 20px;
+        }
+
+        .text-area-input {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #3a3a3a;
+            padding: 0px 20px 0px 20px;
+            margin: 0 auto;
+        }
+
+        .radio-list {
+            width: 65%;
+            padding: 0;
+            margin: 0 auto;
+        }
+
+        .submit-button {
+            margin: 0 auto;
+        }
+
+        .form-content {
+            display: block;
+        }
     }
 
-    .radio-list div {
-        margin: 0;
+    /* for small screen from 548px and down */
+
+    @media screen and (max-width: 548px) {
+        #contact-section {
+            height: 800px;
+        }
     }
 
-    .email-input-text {
-        width: 200px;
-        height: 30px;
-        border: 1px solid #3a3a3a;
-        padding: 0.4rem;
-        margin: 0 auto;
-    }
+    /* For small screens from 480px wide and down (to ensure complete responsiveness to mobiles of all sizes) */
 
-    .form-content {
-        padding: 10px 0px 10px 0px;
-        position: relative;
-    }
+    @media screen and (max-width: 480px) {
+        #gallery-text h2 {
+            font-size: 80%;
+        }
 
-    .form-content h2 {
-        line-height: 20px;
-    }
+        #tutorials-text h2 {
+            font-size: 80%;
+        }
 
-    #form-section h2 {
-        line-height: 20px;
-        font-size: 150%;
-    }
+        .radio-list div {
+            margin: 0;
+        }
 
-    #form-section p {
-        padding: 0;
-    }
+        .email-input-text {
+            width: 200px;
+            height: 30px;
+            border: 1px solid #3a3a3a;
+            padding: 0.4rem;
+            margin: 0 auto;
+        }
 
-    #right-footer {
-        width: 100%;
-        float: left;
-        position: relative;
-    }
+        .form-content {
+            padding: 10px 0px 10px 0px;
+            position: relative;
+        }
 
-    #center-footer {
-        width: 100%;
-        clear: both;
-        float: left;
-        position: relative;
-    }
+        .form-content h2 {
+            line-height: 20px;
+        }
 
-    .contact-content {
-        height: 500px;
-        position: relative;
-        padding: 20px;
-    }
+        #form-section h2 {
+            line-height: 20px;
+            font-size: 150%;
+        }
 
-    #contact-section {
-        height: 900px;
-        position: relative;
-    }
+        #form-section p {
+            padding: 0;
+        }
 
-    #contact-section h2 {
-        font-size: 100%;
-    }
+        #right-footer {
+            width: 100%;
+            float: left;
+            position: relative;
+        }
+
+        #center-footer {
+            width: 100%;
+            clear: both;
+            float: left;
+            position: relative;
+        }
+
+        .contact-content {
+            height: 500px;
+            position: relative;
+            padding: 20px;
+        }
+
+        #contact-section {
+            height: 900px;
+            position: relative;
+        }
+
+        #contact-section h2 {
+            font-size: 100%;
+        }
 
     }
 
     /* for small screens from 400px wide and down */
 
     @media screen and (max-width: 400px) {
-    
+
         #tutorials-text h2 {
             font-size: 80%;
             line-height: 70px;
@@ -946,8 +997,40 @@ footer h3 {
             background-color: rgba(122, 68, 25, .7);
             bottom: 70px;
             position: absolute;
+        }
     }
+
+    @media screen and (max-width: 300px) {
+        .box-container-1 {
+            width: 250px;
+            height: 300px;
+            border-style: solid;
+            border-color: black;
+            margin: 0 auto;
+            border-radius: 20px;
+        }
+    
+        .box-container-2 {
+            width: 250px;
+            height: 300px;
+            border-style: solid;
+            border-color: black;
+            margin: 0 auto;
+            border-radius: 20px;
+        }
+    
+        .box-container-3 {
+            width: 250px;
+            height: 300px;
+            border-style: solid;
+            border-color: black;
+            margin: 0 auto;
+            border-radius: 20px;
+        }
+
+        .thankyou-content h2 {
+            line-height: 75px;
+        }
+
+        
     }
-
-
-
