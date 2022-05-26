@@ -253,21 +253,21 @@ h2 {
 
 /* Hover button styling */
 
-.box-container-1 pbutton:hover {
+.box-container-1 p:hover {
     background-color: #1e441e;
     color: white;
     border-radius: 25px;
     border: 2px solid #1e441e;
 }
 
-.box-container-2 pbutton:hover {
+.box-container-2 p:hover {
     background-color: #1e441e;
     color: white;
     border-radius: 25px;
     border: 2px solid #1e441e;
 }
 
-.box-container-3 pbutton:hover {
+.box-container-3 p:hover {
     background-color: #1e441e;
     color: white;
     border-radius: 25px;
