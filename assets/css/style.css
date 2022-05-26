@@ -233,14 +233,15 @@ h2 {
     border-radius: 20px;
 }
 
-button {
+
+
+.pbutton {
     width: 200px;
     padding: 15px 0;
-    margin: 20px 10px;
     border-radius: 25px;
     border: 2px solid #7a4419;
     background: #7a4419;
-
+    margin: 140px 100px;
     text-align: center;
     text-transform: uppercase;
     font-size: 110%;
@@ -250,49 +251,23 @@ button {
     cursor: pointer;
 }
 
-/* button positioning */
-
-.box-container-1 button {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-
-.box-container-2 button {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-
-.box-container-3 button {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-
 /* Hover button styling */
 
-.box-container-1 button:hover {
+.box-container-1 pbutton:hover {
     background-color: #1e441e;
     color: white;
     border-radius: 25px;
     border: 2px solid #1e441e;
 }
 
-.box-container-2 button:hover {
+.box-container-2 pbutton:hover {
     background-color: #1e441e;
     color: white;
     border-radius: 25px;
     border: 2px solid #1e441e;
 }
 
-.box-container-3 button:hover {
+.box-container-3 pbutton:hover {
     background-color: #1e441e;
     color: white;
     border-radius: 25px;
@@ -614,8 +589,8 @@ footer h3 {
 
 /* Media Queries */
 
-/* for large screens sizes from 1300px wide and down (large desktop) */
-@media screen and (max-width: 1300px) {
+/* for large screens sizes from 1400px wide and down (large desktop) */
+@media screen and (max-width: 1400px) {
     #contact-section {
         height: 750px;
     }
@@ -815,6 +790,10 @@ footer h3 {
         border-color: black;
         margin: 0 auto;
         border-radius: 20px;
+    }
+
+    .pbutton {
+        margin: 140px 50px;
     }
 
     .thankyou-content p {
@@ -1033,6 +1012,10 @@ footer h3 {
             border-color: black;
             margin: 0 auto;
             border-radius: 20px;
+        }
+
+        .pbutton {
+            margin: 140px 25px;
         }
 
         .thankyou-content h2 {
