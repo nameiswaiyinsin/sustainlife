@@ -123,16 +123,13 @@ h2 {
 
 /* welcome section */
 
-#welcome-section {
-    height: 350px;
-    background-color: #1e441e;
-    color: white;
-}
-
 .welcome-content {
     font-size: 100%;
     text-align: center;
-    padding: 0px 80px 0px 80px;
+    padding: 20px 80px 20px 80px;
+    background: #1e441e;
+    color: white;
+    position: relative;
 }
 
 
@@ -508,6 +505,10 @@ footer h3 {
     line-height: 70px;
 }
 
+.youtube {
+    frameborder: 0;
+}
+
 /* Contact section */
 
 #contact-section {
@@ -620,20 +621,19 @@ footer h3 {
     #left-tutorials, #right-share {
         width: 100%;
         float: left;
-        padding: 20px;
     }
 
     #center-gallery {
         clear: both;
         width: 100%;
         float: left;
-        padding: 20px;
     }
 
     .contact-content {
         width: 65%;
         height: 800px;
         margin: 0 auto;
+        padding: 20px;
     }
 
     .radio-list {
@@ -737,8 +737,32 @@ footer h3 {
 
 /* for small screens sizes from 670px wide and down */
 @media screen and (max-width: 670px) {
+
     #resources-section {
         height: 1300px;
+    }
+
+    .welcome-content h2 {
+        line-height: 60px;
+    }
+
+    .welcome-content {
+        padding: 20px 40px 20px 40px;
+    }
+
+    #cover-text {
+        font-size: 120%;
+        font-family: Josefin Sans, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        line-height: 30px;
+        width: 300px;
+        height: 100px;
+        padding-top: 40px;
+        padding-left: 40px;
+        background-color: rgba(122, 68, 25, .7);
+        bottom: 70px;
+        position: absolute;
     }
 
 }
@@ -776,6 +800,7 @@ footer h3 {
         width: 65%;
         margin: 0 auto;
         line-height: 30px;
+        padding: 20px;
     }
 
     .contact-content form {
@@ -817,10 +842,14 @@ footer h3 {
     .form-content {
         display: block;
     }
+}
 
-    
+ /* for small screen from 548px and down */
 
-    
+@media screen and (max-width: 548px) {
+    #contact-section {
+        height: 800px;
+    }
 }
 
 /* For small screens from 480px wide and down (to ensure complete responsiveness to mobiles of all sizes) */
@@ -880,7 +909,7 @@ footer h3 {
     .contact-content {
         height: 500px;
         position: relative;
-        padding: 5px;
+        padding: 20px;
     }
 
     #contact-section {
@@ -902,6 +931,22 @@ footer h3 {
             font-size: 80%;
             line-height: 70px;
         }
+
+        #cover-text {
+            font-size: 100%;
+            font-family: Josefin Sans, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            line-height: 30px;
+            width: 200px;
+            height: 100px;
+            padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            background-color: rgba(122, 68, 25, .7);
+            bottom: 70px;
+            position: absolute;
+    }
     }
 
 
