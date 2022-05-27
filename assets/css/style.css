@@ -871,7 +871,7 @@ footer h3 {
     }
 }
 
-/* for small screen from 548px and down */
+/* For small screen from 548px and down */
 
 @media screen and (max-width: 548px) {
     #contact-section {
@@ -949,7 +949,7 @@ footer h3 {
     }
 }
 
-/* for small screens from 400px wide and down */
+/* For small screens from 400px wide and down */
 
 @media screen and (max-width: 400px) {
 
@@ -974,6 +974,8 @@ footer h3 {
         position: absolute;
     }
 }
+
+/*For small screens from 300px wide and down */
 
 @media screen and (max-width: 300px) {
     .box-container-1 {
