@@ -1,108 +1,132 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Project 1 - HTML & CSS Essentials 
 
-Welcome nameiswaiyinsin,
+Welcome to [Sustain Life](https://nameiswaiyinsin.github.io/sustainlife/) README.md ! 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Brief
+[Sustain Life](https://nameiswaiyinsin.github.io/sustainlife/) is a website for people who would like to live a more sustainable lifestyle through gaining information and inspiration about repairing, maintaining and being creative with their own belongings! They can also share and connect by submitting their own sustainability journeys and projects! 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The last number of years has seen a rise in communities finding ways to be more sustainable and be kinder to the earth by reducing comsumption and increasing the lifecycle of the products they already own. By learning to properly maintain, repair and repurpose your own belongings, you can prolong the lifecycle of your items and maximise its use before deteoriation and being disposed off which is much kinder to our environment. The aim of this website is to facilitate this learning by curating a video library of various topics to maintain, repair items and sustainable gifting etiquette, while aiming to be a fun and engaging for the audience. 
 
-## Gitpod Reminders
+This site allows people to learn, connect and have fun with their sustainability journeys and projects!
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Live site
+Here is the link to the live, deployed site https://nameiswaiyinsin.github.io/sustainlife/
 
-`python3 -m http.server`
+[Sustain Life](https://nameiswaiyinsin.github.io/sustainlife/)
 
-A blue button should appear to click: _Make Public_,
+## Repository
+https://github.com/nameiswaiyinsin/sustainlife
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Target Audience
+Sustainability Enthusiasts, Environmentally & Eco-conscious people, People who enjoy tips, hacks on maximising their use on items
 
-A blue button should appear to click: _Make Public_,
+## Project Objective
+The website should promote:
+<ul>
+<li>The aim of this website is for Target Audience to learn through tutorials, gain inspiration through tutorials and sharing their own sustainability journey and projects</li>
+<li>An explanation of what the website is for, whom it is for and how to navigate on Home page</li>
+<li>A library of curated videos on how to repair, repurpose and gift sustainably in Tutorials page</li>
+<li>A body of sustainability projects submitted by Sustain Life enthusiasts in Gallery page</li>
+<li>A contact form for enquiries and submissions</li>
+<li>A newsletter form for Target Audience to subscribe to</li>
+<li>Links to social media</li>
+</ul>
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## UX:User Experience
+### User Story
+As a user I want to be able to:
+<ul>
+<li>Understand the purpose of the site on loading</li>
+<li>Navigate through the site smoothly</li>
+<li>Learn & enjoy Tutorials</li>
+<li>View & enjoy Gallery</li>
+<li>Leave queries and submissions through Contact page</li>
+<li>Suscribe to newsletter</li>
+<li>Connect on social media</li>
+</ul>
 
-To log into the Heroku toolbelt CLI:
+### Wireframe
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+I designed my wireframe on [Wireframe.cc] (https://wireframe.cc/). The final site may differ from the wireframe templates due to developments in the building process.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Home Page Desktop
+![](/assets/images/wireframe-homepage.jpg)
+<br>
+Home Page Mobile
+![](/assets/images/wireframe-home-page-mobile.png)
 
-------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Site Structure
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Sustain Life is a 4 page website. The Home page is the default landing page. The other pages are accessible from the navigation menu at all times. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+[Home Page](https://nameiswaiyinsin.github.io/sustainlife/index.html)
+[Tutorial Page](https://nameiswaiyinsin.github.io/sustainlife/tutorials.html)
+[Gallery Page](https://nameiswaiyinsin.github.io/sustainlife/gallery.html)
+[Contact Page](https://nameiswaiyinsin.github.io/sustainlife/contact.html)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The Thank You page is the only page that is not accessible from the navigation menu and only accessible when the user subscribes to newsletter or when they submit a query/submission on the Contact page.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+[ThankYou Page](https://nameiswaiyinsin.github.io/sustainlife/thankyou.html)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Colour Scheme
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The colour scheme I chose was inspired by earth's natural colours such as green, brown and charcoal in various shades. It reflects the natural, environmentally conscious theme of the website. Black and white were also used as standard colours to add clarity and familiarity for users.
+![](/assets/images/coolors.jpg)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Design
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Testing
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Technologies used
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Framework, Libraries & Programmes used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Credit
+How to design README.md file https://youtu.be/a8CwpGARAsQ
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Content
+<ul>
+<li>Font was sourced from Google Fonts https://fonts.google.com/</li>
+<li>Icons were sourced from Font Awesome https://fontawesome.com/</li>
+<li>Written content was written my developer</li>
+</ul>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+## Media
+Pictures were sourced from the open source site and social media sites:
+<ul>
+<li>Pexels https://www.pexels.com/ </li>
+<li>Unsplash https://unsplash.com/</li>
+<li>Pinterest https://www.pinterest.com/</li>
+<li>Youtube https://www.youtube.com/</li>
+<li>TikTok https://www.tiktok.com/en/</li>
+</ul>
+All media credit belongs to original owners.
 
-## FAQ about the uptime script
+## Acknowledgements
+Many thanks to 
+<ul>
+<li>Adegbenga Adeye, Code Institute Mentor</li>
+<li>Kasia & Kenan, Code Institute Facilitators</li>
+<li>Code Institute Student Support</li>
+<li>Code Institute Tutors</li>
+<li>My Wonderful Classmates at Code Institute</li>
+</ul>
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## How to Deploy
 
-**How will this affect me?**
+## How to clone and deploy project to use for yourself
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Bugs detected 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Future Functionalities
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
