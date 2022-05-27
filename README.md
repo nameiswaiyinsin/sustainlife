@@ -2,6 +2,7 @@
 
 Welcome to [Sustain Life](https://nameiswaiyinsin.github.io/sustainlife/) README.md ! 
 
+
 ## Brief
 [Sustain Life](https://nameiswaiyinsin.github.io/sustainlife/) is a website for people who would like to live a more sustainable lifestyle through gaining information and inspiration about repairing, maintaining and being creative with their own belongings! They can also share and connect by submitting their own sustainability journeys and projects! 
 
@@ -9,10 +10,12 @@ The last number of years has seen a rise in communities finding ways to be more 
 
 This site allows people to learn, connect and have fun with their sustainability journeys and projects!
 
+
 ## Live site
 Here is the link to the live, deployed site https://nameiswaiyinsin.github.io/sustainlife/
 
 [Sustain Life](https://nameiswaiyinsin.github.io/sustainlife/)
+
 
 ## Repository
 https://github.com/nameiswaiyinsin/sustainlife
@@ -20,6 +23,7 @@ https://github.com/nameiswaiyinsin/sustainlife
 
 ## Target Audience
 Sustainability Enthusiasts, Environmentally & Eco-conscious people, People who enjoy tips, hacks on maximising their use on items
+
 
 ## Project Objective
 The website should promote:
@@ -34,7 +38,7 @@ The website should promote:
 </ul>
 
 
-## UX:User Experience
+## (UX) User Experience
 ### User Story
 As a user I want to be able to:
 <ul>
@@ -56,6 +60,20 @@ Home Page Desktop
 <br>
 Home Page Mobile
 ![](/assets/images/wireframe-home-page-mobile.png)
+<br>
+Note: Due to time constraint, I was not able to digitally design the wireframe for the rest of the website. I drew it on paper before starting to build my website, hoping I would have time to design the final wireframe, but unfortunately I wasn't able to do that.
+
+Tutorials Page Desktop 
+![](/assets/images/wireframe-tutorials.jpg) 
+
+Gallery Page Desktop 
+![](/assets/images/wireframe-gallery.jpg)
+
+Contact Page Desktop
+![](/assets/images/wireframe-contact.jpg)
+
+Thank You Page Desktop
+![](/assets/images/wireframe-thankyou.jpg)
 
 
 
@@ -72,22 +90,63 @@ The Thank You page is the only page that is not accessible from the navigation m
 
 [ThankYou Page](https://nameiswaiyinsin.github.io/sustainlife/thankyou.html)
 
-### Colour Scheme
-
-The colour scheme I chose was inspired by earth's natural colours such as green, brown and charcoal in various shades. It reflects the natural, environmentally conscious theme of the website. Black and white were also used as standard colours to add clarity and familiarity for users.
-![](/assets/images/coolors.jpg)
 
 
 ## Design
 
+### Colour Scheme
+The colour scheme I chose was inspired by earth's natural colours such as green, brown and charcoal in various shades. It reflects the natural, environmentally conscious theme of the website. Black and white were also used as standard colours to add clarity and familiarity for users.
+![](/assets/images/coolors.jpg)
+
+
+### Typography
+Two fonts were used for the website: 
+<ul>
+<li>h1 and h2 used Josefin Sans, sans-serif</li>
+<li>Body font used Montserrat, sans-serif</li>
+</ul>
+
+The fonts were sourced from Google Fonts.
+The fonts were chosen as they are complementary with each other aesthetically and easy to read for accessibility.
+
+
 ## Testing
+![](/assets/images/testing1.jpg)
+![](/assets/images/testing2.jpg)
+![](/assets/images/testing3.jpg)
+![](/assets/images/testing4.jpg)
+![](/assets/images/testing5.jpg)
+![](/assets/images/testing6.jpg)
+![](/assets/images/testing7.jpg)
+![](/assets/images/testing8.jpg)
+![](/assets/images/testing9.jpg)
+![](/assets/images/testing10.jpg)
+
 
 ## Technologies used
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+</ul>
 
-## Framework, Libraries & Programmes used
 
 ## Credit
-How to design README.md file https://youtu.be/a8CwpGARAsQ
+<ul>
+<li>Code Institute Love Running Walkthrough Project</li>
+<li>Code Institute Course program</li>
+<li>Stack overflow</li>
+<li>CSS Media Queries http://cssmediaqueries.com/ </li>
+<li>Fixing #menu float to ensure that the menu floated to the right, but the list floated to the left of the page (hence the list items are not reversed). I did this to ensure accessibility for screen readers.  https://codepen.io/ConStambo/pen/WxRQVq </li>
+</ul>
+
+## Code
+Inspiration was birth from these great websites!
+<ul>
+<li>https://github.com/TashaTJ/pawsome-portraits-v4</li>
+<li>https://github.com/kera-cudmore/Bully-Book-Club</li>
+<li>https://github.com/Code-Institute-Submissions/Skinwareness</li>
+</ul>
+
 
 ## Content
 <ul>
@@ -108,6 +167,7 @@ Pictures were sourced from the open source site and social media sites:
 </ul>
 All media credit belongs to original owners.
 
+
 ## Acknowledgements
 Many thanks to 
 <ul>
@@ -120,12 +180,43 @@ Many thanks to
 
 
 ## How to Deploy
+I deployed the site on GitHub pages.
+<ol>
+<li>Go to project repository, navigate to the Settings tab.</li>
+<li>Select Pages tab from the left hand menu.</li>
+<li>In Source section, drop-down the menu and select the Main Branch and click Save.</li>
+<li>After the page has refreshed, a ribbon will display indicating the successful deployment of the site and link to the live page.</li>
+<li>The live site can be found using the following URL - https://github.com/nameiswaiyinsin/sustainlife</li>
+</ol>
+
+
 
 ## How to clone and deploy project to use for yourself
+To make a copy or ‘fork’ the repository -
+<ol>
+<li>Log into GitHub and locate repository</li>
+<li>On the right hand side of the page select the ‘fork’ option to create and copy of the original</li>
+</ol>
+
+To create a Local Clone
+<ol>
+<li>Under repository name, click on the Code tab</li>
+</li>In the clone box, HTTPS tab, click on the Clipboard Icon in your IED open GitBash</li>
+</li>Change the current working directory to the location you want the cloned directory to be made</li>
+</li>Type ‘git clone’ and paste the URL copied from GitHub</li>
+</li>Press Enter and the local clone will be created</li>
+</ol>
 
 ## Bugs detected 
 
 ## Future Functionalities
+Due to time and resource constraints, I was not able to implement everything that I had envisioned and will add future features later as my skills grow and refine.
+
+Future Functionalities I would like to implement:
+<ul>
+<li>A feature within the main gallery allowing the users to view the photos individually when clicked on, with zoom capabilities.</li>
+<li>Fix all bugs and Performance rating that I couldn't fix due to time restraint.</li>
+<ul>
 
 
 
