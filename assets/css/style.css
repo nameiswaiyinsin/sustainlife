@@ -140,7 +140,6 @@ h2 {
     position: relative;
 }
 
-
 .welcome-content h2 {
     color: white;
     font-size: 150%;
@@ -195,7 +194,6 @@ h2 {
 #right-share a,
 #center-gallery a {
     text-decoration: none;
-
 }
 
 #right-share-image-bg {
@@ -203,7 +201,6 @@ h2 {
     height: 100%;
     width: 100%;
     border-radius: 20px;
-
 }
 
 #center-gallery-image-bg {
@@ -240,8 +237,6 @@ h2 {
     border-radius: 20px;
 }
 
-
-
 .pbutton {
     width: 200px;
     padding: 15px 0;
@@ -254,7 +249,6 @@ h2 {
     font-size: 110%;
     letter-spacing: 4px;
     color: white;
-
     cursor: pointer;
 }
 
@@ -454,7 +448,6 @@ footer h3 {
     line-height: 80px;
     text-align: center;
     font-size: 200%;
-
 }
 
 #repurpose-tutorials h2 {
@@ -492,12 +485,8 @@ footer h3 {
 
 .video-title {
     text-align: center;
-    padding: 10px, 30px, 10px, 30px;
+    padding: 10px 30px 10px 30px;
     line-height: 40px;
-}
-
-.youtube {
-    frameborder: 0;
 }
 
 /* Contact section */
@@ -651,6 +640,7 @@ footer h3 {
 }
 
 /* For medium screen sizes from 964px wide and down (tablet) */
+
 @media screen and (max-width: 964px) {
     #menu {
         clear: left;
@@ -733,12 +723,11 @@ footer h3 {
         padding-left: 20px;
         padding-right: 20px;
     }
-
 }
 
 /* for small screens sizes from 670px wide and down */
-@media screen and (max-width: 670px) {
 
+@media screen and (max-width: 670px) {
     #resources-section {
         height: 1350px;
         width: 100%;
@@ -803,226 +792,222 @@ footer h3 {
         padding-left: 20px;
         padding-right: 20px;
     }
+}
 
+/* For small screen sizes from 800px wide and down (mobile) */
+
+@media screen and (max-width: 800px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 80%;
+        text-align: center;
     }
 
-    /* For small screen sizes from 800px wide and down (mobile) */
-
-    @media screen and (max-width: 800px) {
-        #menu {
-            clear: left;
-            float: left;
-            margin-left: 5px;
-            margin-bottom: 20px;
-            line-height: 25px;
-            font-size: 80%;
-            text-align: center;
-        }
-
-        #photos {
-            column-count: 1;
-        }
-
-        #gallery-text h2 {
-            font-size: 150%;
-        }
-
-        #tutorials-text h2 {
-            font-size: 100%;
-        }
-
-        #contact-section h2 {
-            font-size: 150%;
-        }
-
-        .contact-content {
-            width: 65%;
-            margin: 0 auto;
-            line-height: 30px;
-            padding: 20px;
-        }
-
-        .contact-content form {
-            height: 550px;
-        }
-
-        .contact-name-input {
-            width: 200px;
-            height: 30px;
-            border: 1px solid #3a3a3a;
-            padding: 0px 20px 0px 20px;
-        }
-
-        .contact-email-input {
-            width: 200px;
-            height: 30px;
-            border: 1px solid #3a3a3a;
-            padding: 0px 20px 0px 20px;
-        }
-
-        .text-area-input {
-            width: 200px;
-            height: 200px;
-            border: 1px solid #3a3a3a;
-            padding: 0px 20px 0px 20px;
-            margin: 0 auto;
-        }
-
-        .radio-list {
-            width: 65%;
-            padding: 0;
-            margin: 0 auto;
-        }
-
-        .submit-button {
-            margin: 0 auto;
-        }
-
-        .form-content {
-            display: block;
-        }
+    #photos {
+        column-count: 1;
     }
 
-    /* for small screen from 548px and down */
-
-    @media screen and (max-width: 548px) {
-        #contact-section {
-            height: 800px;
-        }
+    #gallery-text h2 {
+        font-size: 150%;
     }
 
-    /* For small screens from 480px wide and down (to ensure complete responsiveness to mobiles of all sizes) */
-
-    @media screen and (max-width: 480px) {
-        #gallery-text h2 {
-            font-size: 80%;
-        }
-
-        #tutorials-text h2 {
-            font-size: 80%;
-        }
-
-        .radio-list div {
-            margin: 0;
-        }
-
-        .email-input-text {
-            width: 200px;
-            height: 30px;
-            border: 1px solid #3a3a3a;
-            padding: 0.4rem;
-            margin: 0 auto;
-        }
-
-        .form-content {
-            padding: 10px 0px 10px 0px;
-            position: relative;
-        }
-
-        .form-content h2 {
-            line-height: 20px;
-        }
-
-        #form-section h2 {
-            line-height: 20px;
-            font-size: 150%;
-        }
-
-        #form-section p {
-            padding: 0;
-        }
-
-        #right-footer {
-            width: 100%;
-            float: left;
-            position: relative;
-        }
-
-        #center-footer {
-            width: 100%;
-            clear: both;
-            float: left;
-            position: relative;
-        }
-
-        .contact-content {
-            height: 500px;
-            position: relative;
-            padding: 20px;
-        }
-
-        #contact-section {
-            height: 900px;
-            position: relative;
-        }
-
-        #contact-section h2 {
-            font-size: 100%;
-        }
-
+    #tutorials-text h2 {
+        font-size: 100%;
     }
 
-    /* for small screens from 400px wide and down */
-
-    @media screen and (max-width: 400px) {
-
-        #tutorials-text h2 {
-            font-size: 80%;
-            line-height: 70px;
-        }
-
-        #cover-text {
-            font-size: 100%;
-            font-family: Josefin Sans, sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            line-height: 30px;
-            width: 200px;
-            height: 100px;
-            padding-top: 40px;
-            padding-left: 40px;
-            padding-right: 40px;
-            background-color: rgba(122, 68, 25, .7);
-            bottom: 70px;
-            position: absolute;
-        }
+    #contact-section h2 {
+        font-size: 150%;
     }
 
-    @media screen and (max-width: 300px) {
-        .box-container-1 {
-            width: 250px;
-            height: 300px;
-            border-style: solid;
-            border-color: black;
-            margin: 0 auto;
-            border-radius: 20px;
-        }
-    
-        .box-container-2 {
-            width: 250px;
-            height: 300px;
-            border-style: solid;
-            border-color: black;
-            margin: 0 auto;
-            border-radius: 20px;
-        }
-    
-        .box-container-3 {
-            width: 250px;
-            height: 300px;
-            border-style: solid;
-            border-color: black;
-            margin: 0 auto;
-            border-radius: 20px;
-        }
-
-        .pbutton {
-            margin: 140px 25px;
-        }
-
-        .thankyou-content h2 {
-            line-height: 75px;
-        }
-
-        
+    .contact-content {
+        width: 65%;
+        margin: 0 auto;
+        line-height: 30px;
+        padding: 20px;
     }
+
+    .contact-content form {
+        height: 550px;
+    }
+
+    .contact-name-input {
+        width: 200px;
+        height: 30px;
+        border: 1px solid #3a3a3a;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .contact-email-input {
+        width: 200px;
+        height: 30px;
+        border: 1px solid #3a3a3a;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .text-area-input {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #3a3a3a;
+        padding: 0px 20px 0px 20px;
+        margin: 0 auto;
+    }
+
+    .radio-list {
+        width: 65%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .submit-button {
+        margin: 0 auto;
+    }
+
+    .form-content {
+        display: block;
+    }
+}
+
+/* for small screen from 548px and down */
+
+@media screen and (max-width: 548px) {
+    #contact-section {
+        height: 800px;
+    }
+}
+
+/* For small screens from 480px wide and down (to ensure complete responsiveness to mobiles of all sizes) */
+
+@media screen and (max-width: 480px) {
+    #gallery-text h2 {
+        font-size: 80%;
+    }
+
+    #tutorials-text h2 {
+        font-size: 80%;
+    }
+
+    .radio-list div {
+        margin: 0;
+    }
+
+    .email-input-text {
+        width: 200px;
+        height: 30px;
+        border: 1px solid #3a3a3a;
+        padding: 0.4rem;
+        margin: 0 auto;
+    }
+
+    .form-content {
+        padding: 10px 0px 10px 0px;
+        position: relative;
+    }
+
+    .form-content h2 {
+        line-height: 20px;
+    }
+
+    #form-section h2 {
+        line-height: 20px;
+        font-size: 150%;
+    }
+
+    #form-section p {
+        padding: 0;
+    }
+
+    #right-footer {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+
+    #center-footer {
+        width: 100%;
+        clear: both;
+        float: left;
+        position: relative;
+    }
+
+    .contact-content {
+        height: 500px;
+        position: relative;
+        padding: 20px;
+    }
+
+    #contact-section {
+        height: 900px;
+        position: relative;
+    }
+
+    #contact-section h2 {
+        font-size: 100%;
+    }
+}
+
+/* for small screens from 400px wide and down */
+
+@media screen and (max-width: 400px) {
+
+    #tutorials-text h2 {
+        font-size: 80%;
+        line-height: 70px;
+    }
+
+    #cover-text {
+        font-size: 100%;
+        font-family: Josefin Sans, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        line-height: 30px;
+        width: 200px;
+        height: 100px;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: rgba(122, 68, 25, .7);
+        bottom: 70px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .box-container-1 {
+        width: 250px;
+        height: 300px;
+        border-style: solid;
+        border-color: black;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    .box-container-2 {
+        width: 250px;
+        height: 300px;
+        border-style: solid;
+        border-color: black;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    .box-container-3 {
+        width: 250px;
+        height: 300px;
+        border-style: solid;
+        border-color: black;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    .pbutton {
+        margin: 140px 25px;
+    }
+
+    .thankyou-content h2 {
+        line-height: 75px;
+    }
+}
